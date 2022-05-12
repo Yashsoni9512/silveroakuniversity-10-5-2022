@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            ANIMATION 2
+        </title>
+        <style type="text/css">
+            div
+            {
+                height:250px;
+                width: 250px;
+                transition:3s;
+                font-size:20px;
+                font-weight:bold;
+                color:#e60010;
+                background-color:rgb(246, 177, 177);
+            }
+            
+			#TranslateDiv:hover
+            {
+                -webkit-transform:translate(150px,150px);
+                   -moz-transform:translate(150px,150px);
+                    -ms-transform:translate(150px,150px);
+                     -o-transform:translate(150px,150px);
+                        transform:translate(150px,150px);
+                      background-color:rgb(0, 202, 182);
+                      color:rgb(255, 255, 69); 
+            }
+			
+            #RotateDiv:hover
+            {
+                -webkit-transform:rotate(360deg);
+                   -moz-transform:rotate(360deg);
+                    -ms-transform:rotate(360deg);
+                     -o-transform:rotate(360deg);
+                        transform:rotate(360deg);
+                      background-color:rgb(242, 91, 91);
+                      color:rgb(1, 102, 35); 
+         
+            }
+			#RotateDiv3D:hover{
+				-webkit-transform:rotate3d(1,2,0,360deg);
+                   -moz-transform:rotate3d(1,2,0,360deg);
+                    -ms-transform:rotate3d(1,2,0,360deg);
+                     -o-transform:rotate3d(1,2,0,360deg);
+                        transform:rotate3d(1,2,0,360deg);
+                      background-color:rgb(106, 0, 106);
+                      color:rgb(180, 38, 121); 
+         
+			}
+            #SkewDiv:hover
+            {
+                -webkit-transform:skew(55deg);
+                   -moz-transform:skew(55deg);
+                    -ms-transform:skew(55deg);
+                     -o-transform:skew(55deg);
+                        transform:skew(55deg);
+                      background-color:rgb(50, 9, 128);
+                      color:rgb(255, 135, 88); 
+            }
+            #ScaleDiv:hover
+            {
+                -webkit-transform:scale(1.3,0.4);
+                   -moz-transform:scale(1.3,0.4);
+                    -ms-transform:scale(1.3,0.4);
+                     -o-transform:scale(1.3,0.4);
+                        transform:scale(1.3,0.4);
+                      background-color:rgb(164, 114, 245);
+                      color:rgba(85, 0, 255, 0.316); 
+            }
+            #OpacityDiv:hover
+            {
+                opacity:1;
+            }
+            #RGBADiv:hover
+            {
+                background:rgba(6, 205, 255, 0.826);
+            }
+            #BoxShadowDiv:hover
+            {
+                box-shadow:0px 0px 40px rgb(0, 0, 0);
+            }
+            #TextShadowDiv:hover
+            {
+                text-shadow:4px 4px 4px rgb(0, 0, 0);
+            }
+			#BorderRadiusDiv:hover
+			{
+				border-radius:60%;
+			}
+			#OverFlowDiv{overflow:auto;}
+        </style>
+	</head>
+    <body>
+        <b>Translate</b>
+        <div id="TranslateDiv">1</div><hr />
+        <b>Rotate</b>
+        <div id="RotateDiv">2</div><hr />
+        <b>Rotate</b>
+		<div id="RotateDiv3D">3</div><hr />
+        <b>Skew</b>
+        <div id="SkewDiv">4</div><hr />
+        <b>scale</b>
+        <div id="ScaleDiv">5</div><hr />
+        <b>Opacity</b>
+        <div id="OpacityDiv">6</div><hr />
+        <b>RGBA</b>
+        <div id="RGBADiv">7</div><hr />
+        <b>Box-Shad</b>
+        <div id="BoxShadowDiv">8</div><hr />
+        <b>Text-Shado</b>
+        <div id="TextShadowDiv">9</div><hr />
+        <b>Border Radiu</b>
+		<div id="BorderRadiusDiv">10</div><hr />
+        <b>Overflow</b>
+		<div id="OverFlowDiv"> Overflow Data Overflow Data Overflow Data Overflow Data Overflow Data Overflow Data Overflow Data Overflow Data Overflow Data Overflow Data Overflow Data Overflow Data Overflow </div><hr />
+    </body>
+</html>
